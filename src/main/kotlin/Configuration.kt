@@ -5,6 +5,6 @@ data class Configuration(
     val server:String = "",
     val localPath:String = "",
     val remotePath:String = "",
-    val deleteAlgo:String ="",
+    val deleteAlgo:String ="INTELLIGENT",
     val keepVersions:Int = 5
     )

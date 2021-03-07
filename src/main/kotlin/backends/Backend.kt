@@ -13,5 +13,5 @@ interface Backend {
     fun readFile(path:String,prefix: String):OutputStream?
     fun createDir(path:String):Boolean
     fun listDirs(path:String):List<String>
-    fun rm(path:String):Boolean
+    fun rm(path:String,prefix:String):Boolean
 }

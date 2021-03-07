@@ -99,7 +99,7 @@ class SmbBackend:Backend {
         return list
     }
 
-    override fun rm(path: String): Boolean {
+    override fun rm(path: String,preprefix: String): Boolean {
         TODO("Not yet implemented")
     }
 }
